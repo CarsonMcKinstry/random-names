@@ -4,7 +4,7 @@
     "description": "A random name generator for all kinds of things",
     "main": "dist/index.js",
     "repository": "https://github.com/carsonmckinstry/random-names.git",
-    "author": "Carson McKinstry, et al. <carosn.mckinstry@gmail.com>",
+    "author": "Carson McKinstry, et al. <carson.mckinstry@gmail.com>",
     "license": "MIT",
     "homepage": "https://github.com/carsonmckinstry/random-names#readme",
     "scripts": {
