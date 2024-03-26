@@ -1,0 +1,10 @@
+export * as belts from './belts';
+export * as boots from './boots';
+export * as chests from './chests';
+export * as cloaks from './cloaks';
+export * as gauntlets from './gauntlets';
+export * as helmets from './helmets';
+export * as legs from './legs';
+export * as pauldrons from './pauldrons';
+export * as shields from './shields';
+export * as vambraces from './vambraces';

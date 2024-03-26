@@ -1,0 +1,9 @@
+export * as asaris from './asaris';
+export * as batarians from './batarians';
+export * as drells from './drells';
+export * as geths from './geths';
+export * as humans from './humans';
+export * as krogans from './krogans';
+export * as quarians from './quarians';
+export * as salarians from './salarians';
+export * as turians from './turians';

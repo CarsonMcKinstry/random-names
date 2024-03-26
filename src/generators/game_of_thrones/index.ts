@@ -1,0 +1,10 @@
+export * as dothrakis from './dothrakis';
+export * as freeCitys from './freeCitys';
+export * as freeFolks from './freeFolks';
+export * as ghiscaris from './ghiscaris';
+export * as mountainClans from './mountainClans';
+export * as nicknames from './nicknames';
+export * as summerIslanders from './summerIslanders';
+export * as unsullieds from './unsullieds';
+export * as valyrians from './valyrians';
+export * as westeros from './westeros';

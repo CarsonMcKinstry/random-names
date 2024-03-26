@@ -1,0 +1,16 @@
+export * as beastmens from './beastmens';
+export * as bretonnias from './bretonnias';
+export * as daemonsOfChaos from './daemonsOfChaos';
+export * as darkElfs from './darkElfs';
+export * as dwarfs from './dwarfs';
+export * as empires from './empires';
+export * as goblins from './goblins';
+export * as highElfs from './highElfs';
+export * as lizardmens from './lizardmens';
+export * as ogres from './ogres';
+export * as orcs from './orcs';
+export * as skavens from './skavens';
+export * as tombKings from './tombKings';
+export * as vampireCounts from './vampireCounts';
+export * as warriorsOfChaos from './warriorsOfChaos';
+export * as woodElfs from './woodElfs';

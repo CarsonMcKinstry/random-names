@@ -1,0 +1,10 @@
+export * as anoukis from './anoukis';
+export * as deitys from './deitys';
+export * as dekus from './dekus';
+export * as fairys from './fairys';
+export * as gerudos from './gerudos';
+export * as gorons from './gorons';
+export * as humans from './humans';
+export * as korokKokiris from './korokKokiris';
+export * as minishs from './minishs';
+export * as zoras from './zoras';

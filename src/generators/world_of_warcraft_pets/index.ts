@@ -1,0 +1,12 @@
+export * as batDragonhawks from './batDragonhawks';
+export * as birds from './birds';
+export * as boarsBears from './boarsBears';
+export * as cats from './cats';
+export * as crabs from './crabs';
+export * as dinoRhinos from './dinoRhinos';
+export * as dogWolfs from './dogWolfs';
+export * as goatPorcupines from './goatPorcupines';
+export * as gorillaMonkeys from './gorillaMonkeys';
+export * as insects from './insects';
+export * as reptiles from './reptiles';
+export * as wowPets from './wowPets';
