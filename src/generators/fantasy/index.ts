@@ -91,7 +91,7 @@ import villains from './villains';
 import warriorNicknames from './warriorNicknames';
 import werewolfPacks from './werewolfPacks';
 import werewolfs from './werewolfs';
-import witchs from './witchs';
+import witches from './witches';
 import wizards from './wizards';
 import zombieTypes from './zombieTypes';
 
@@ -189,7 +189,7 @@ villains,
 warriorNicknames,
 werewolfPacks,
 werewolfs,
-witchs,
+witches,
 wizards,
 zombieTypes
         };
