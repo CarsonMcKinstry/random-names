@@ -1,6 +1,6 @@
 {
     "name": "@carsonmckinstry/random-names",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "A random name generator for all kinds of things",
     "main": "dist/index.js",
     "repository": "https://github.com/carsonmckinstry/random-names.git",
