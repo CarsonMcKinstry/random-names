@@ -7,8 +7,11 @@ Generate random names for all kinds of things
 ```javascript
 import { generate } from '@carsonmckinstry/random-names';
 
+// fully typed generate function!
 const aRandomName = generate("fantasy", "aliens");
 ```
+
+I would not recommend using this package directly in front-end apps, it is incredibly heavy since it uses barrel imports to allow `generate` to work.
 
 ## Full List
 
@@ -100,3 +103,7 @@ Fork of @xaroth8088's [random-names](https://github.com/xaroth8088/random-names)
 Based largely on the now-defunct fantasy-names package, originally by Matthew Consterdine.
 
 This would not have been possible without [fantasynamegenerators.com](http://fantasynamegenerators.com).
+
+## Todo
+
+-[ ] Make it possible to import from "@carsonmckinstry/random-names/<namespace>/<generator>"
