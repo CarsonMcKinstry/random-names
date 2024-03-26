@@ -5,9 +5,9 @@ Generate random names for all kinds of things
 # Usage
 
 ```javascript
-import alienNames from '@xaroth8088/random-names/fantasy/aliens.mjs';
+import { generate } from '@carsonmckinstry/random-names';
 
-const aRandomName = alienNames().trim(); // The .trim() is temporary until I finish output cleanup efforts
+const aRandomName = generate("fantasy", "aliens");
 ```
 
 ## Full List
@@ -94,6 +94,8 @@ const aRandomName = alienNames().trim(); // The .trim() is temporary until I fin
     Bat Dragonhawks, Birds, Boars Bears, Cats, Crabs, Dino Rhinos, Dog Wolfs, Goat Porcupines, Gorilla Monkeys, Insects, Reptiles, Wow Pets.
 
 ## Credits
+
+Fork of @xaroth8088's [random-names](https://github.com/xaroth8088/random-names) package.
 
 Based largely on the now-defunct fantasy-names package, originally by Matthew Consterdine.
 
