@@ -1,5 +1,4 @@
 import battleAxes from './battleAxes';
-import battle_axes from './battle_axes';
 import bombMissiles from './bombMissiles';
 import bows from './bows';
 import clawWeapons from './clawWeapons';
@@ -23,7 +22,6 @@ import whips from './whips';
 
 export {
             battleAxes,
-battle_axes,
 bombMissiles,
 bows,
 clawWeapons,
