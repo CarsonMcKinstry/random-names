@@ -1,6 +1,6 @@
 import { sample } from 'lodash';
 
-export default function witchs() {
+export default function witches() {
     let names: string;
     const type = Math.random() > 0.5 ? 0 : 1;
     const nm1 = [
