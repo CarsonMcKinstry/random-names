@@ -1,17 +1,17 @@
 {
-    "name": "@xaroth8088/random-names",
+    "name": "@carsonmckinstry/random-names",
     "version": "1.1.3",
     "description": "A random name generator for all kinds of things",
     "main": "dist/index.js",
-    "repository": "https://github.com/xaroth8088/random-names.git",
-    "author": "Geoffrey Benson, et al. <xaroth@gmail.com>",
+    "repository": "https://github.com/carsonmckinstry/random-names.git",
+    "author": "Carson McKinstry, et al. <carosn.mckinstry@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/xaroth8088/random-names#readme",
+    "homepage": "https://github.com/carsonmckinstry/random-names#readme",
     "scripts": {
         "build": "node buildIndices && tsc"
     },
     "bugs": {
-        "url": "https://github.com/xaroth8088/random-names/issues"
+        "url": "https://github.com/carsonmckinstry/random-names/issues"
     },
     "keywords": [
         "random",
