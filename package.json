@@ -8,6 +8,7 @@
     "license": "MIT",
     "homepage": "https://github.com/carsonmckinstry/random-names#readme",
     "scripts": {
+        "prepublish": "yarn build",
         "build": "node buildIndices && tsc"
     },
     "bugs": {
