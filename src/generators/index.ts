@@ -5,7 +5,7 @@ export * as diablo from './diablo';
 export * as doctor_who from './doctor_who';
 export * as dragon_age from './dragon_age';
 export * as dragon_ball from './dragon_ball';
-export * as dungeon_and_dragons from './dungeon_and_dragons';
+export * as dungeons_and_dragons from './dungeons_and_dragons';
 export * as elder_scrolls from './elder_scrolls';
 export * as eve_online from './eve_online';
 export * as fantasy from './fantasy';
