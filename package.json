@@ -78,9 +78,12 @@
   "devDependencies": {
     "@babel/core": "^7.19.0",
     "@babel/eslint-parser": "^7.18.9",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.11.30",
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "typescript": "^5.4.3"
   },
   "dependencies": {
     "lodash-es": "^4.17.21"
