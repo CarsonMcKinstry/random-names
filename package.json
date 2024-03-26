@@ -89,5 +89,8 @@
     },
     "dependencies": {
         "lodash": "^4.17.21"
+    },
+    "publishConfig": {
+        "@carsonmckinstry:registry": "https://npm.pkg.github.com"
     }
 }
