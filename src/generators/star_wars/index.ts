@@ -1,37 +1,77 @@
-export * as anzatis from './anzatis';
-export * as biths from './biths';
-export * as bothans from './bothans';
-export * as darths from './darths';
-export * as devaronians from './devaronians';
-export * as dugs from './dugs';
-export * as duross from './duross';
-export * as ewoks from './ewoks';
-export * as falleens from './falleens';
-export * as gamorreans from './gamorreans';
-export * as gands from './gands';
-export * as gotals from './gotals';
-export * as grans from './grans';
-export * as gungans from './gungans';
-export * as hutts from './hutts';
-export * as iktotchis from './iktotchis';
-export * as ishiTibs from './ishiTibs';
-export * as ithorians from './ithorians';
-export * as jawas from './jawas';
-export * as keLdors from './keLdors';
-export * as korunnais from './korunnais';
-export * as mandalorians from './mandalorians';
-export * as monCalamaris from './monCalamaris';
-export * as nautolans from './nautolans';
-export * as neimoidians from './neimoidians';
-export * as niktos from './niktos';
-export * as ortolans from './ortolans';
-export * as quarrens from './quarrens';
-export * as rodians from './rodians';
-export * as shistavanens from './shistavanens';
-export * as sullustans from './sullustans';
-export * as swiss from './swiss';
-export * as toydarians from './toydarians';
-export * as trandoshans from './trandoshans';
-export * as tuskenRaiders from './tuskenRaiders';
-export * as weequays from './weequays';
-export * as wookiees from './wookiees';
+import anzatis from './anzatis';
+import biths from './biths';
+import bothans from './bothans';
+import darths from './darths';
+import devaronians from './devaronians';
+import dugs from './dugs';
+import duross from './duross';
+import ewoks from './ewoks';
+import falleens from './falleens';
+import gamorreans from './gamorreans';
+import gands from './gands';
+import gotals from './gotals';
+import grans from './grans';
+import gungans from './gungans';
+import hutts from './hutts';
+import iktotchis from './iktotchis';
+import ishiTibs from './ishiTibs';
+import ithorians from './ithorians';
+import jawas from './jawas';
+import keLdors from './keLdors';
+import korunnais from './korunnais';
+import mandalorians from './mandalorians';
+import monCalamaris from './monCalamaris';
+import nautolans from './nautolans';
+import neimoidians from './neimoidians';
+import niktos from './niktos';
+import ortolans from './ortolans';
+import quarrens from './quarrens';
+import rodians from './rodians';
+import shistavanens from './shistavanens';
+import sullustans from './sullustans';
+import swiss from './swiss';
+import toydarians from './toydarians';
+import trandoshans from './trandoshans';
+import tuskenRaiders from './tuskenRaiders';
+import weequays from './weequays';
+import wookiees from './wookiees';
+
+export {
+            anzatis,
+biths,
+bothans,
+darths,
+devaronians,
+dugs,
+duross,
+ewoks,
+falleens,
+gamorreans,
+gands,
+gotals,
+grans,
+gungans,
+hutts,
+iktotchis,
+ishiTibs,
+ithorians,
+jawas,
+keLdors,
+korunnais,
+mandalorians,
+monCalamaris,
+nautolans,
+neimoidians,
+niktos,
+ortolans,
+quarrens,
+rodians,
+shistavanens,
+sullustans,
+swiss,
+toydarians,
+trandoshans,
+tuskenRaiders,
+weequays,
+wookiees
+        };

@@ -1,5 +1,13 @@
-export * as asuras from './asuras';
-export * as charrs from './charrs';
-export * as human from './human';
-export * as norns from './norns';
-export * as sylvaris from './sylvaris';
+import asuras from './asuras';
+import charrs from './charrs';
+import human from './human';
+import norns from './norns';
+import sylvaris from './sylvaris';
+
+export {
+            asuras,
+charrs,
+human,
+norns,
+sylvaris
+        };

@@ -8,7 +8,7 @@
     "license": "MIT",
     "homepage": "https://github.com/xaroth8088/random-names#readme",
     "scripts": {
-        "build": "tsc"
+        "build": "node buildIndices && tsc"
     },
     "bugs": {
         "url": "https://github.com/xaroth8088/random-names/issues"
@@ -76,6 +76,7 @@
     "devDependencies": {
         "@babel/core": "^7.19.0",
         "@babel/eslint-parser": "^7.18.9",
+        "@types/lodash": "^4.17.0",
         "@types/lodash-es": "^4.17.12",
         "@types/node": "^20.11.30",
         "@typescript-eslint/eslint-plugin": "^7.4.0",
@@ -87,6 +88,6 @@
         "typescript": "^5.4.3"
     },
     "dependencies": {
-        "lodash-es": "^4.17.21"
+        "lodash": "^4.17.21"
     }
 }

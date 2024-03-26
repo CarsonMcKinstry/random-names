@@ -1,8 +1,19 @@
-export * as itu from './itu';
-export * as nato from './nato';
-export * as numeric from './numeric';
-export * as royalAirForce from './royalAirForce';
-export * as royalNavy from './royalNavy';
-export * as signalese from './signalese';
-export * as telegram from './telegram';
-export * as unitedStates from './unitedStates';
+import itu from './itu';
+import nato from './nato';
+import numeric from './numeric';
+import royalAirForce from './royalAirForce';
+import royalNavy from './royalNavy';
+import signalese from './signalese';
+import telegram from './telegram';
+import unitedStates from './unitedStates';
+
+export {
+            itu,
+nato,
+numeric,
+royalAirForce,
+royalNavy,
+signalese,
+telegram,
+unitedStates
+        };

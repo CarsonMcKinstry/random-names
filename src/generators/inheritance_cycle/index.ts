@@ -1,5 +1,13 @@
-export * as dragons from './dragons';
-export * as dwarfs from './dwarfs';
-export * as elfs from './elfs';
-export * as humans from './humans';
-export * as urgals from './urgals';
+import dragons from './dragons';
+import dwarfs from './dwarfs';
+import elfs from './elfs';
+import humans from './humans';
+import urgals from './urgals';
+
+export {
+            dragons,
+dwarfs,
+elfs,
+humans,
+urgals
+        };

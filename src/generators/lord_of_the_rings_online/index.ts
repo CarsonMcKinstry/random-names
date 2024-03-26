@@ -1,5 +1,13 @@
-export * as beorning from './beorning';
-export * as dwarf from './dwarf';
-export * as elf from './elf';
-export * as hobbit from './hobbit';
-export * as human from './human';
+import beorning from './beorning';
+import dwarf from './dwarf';
+import elf from './elf';
+import hobbit from './hobbit';
+import human from './human';
+
+export {
+            beorning,
+dwarf,
+elf,
+hobbit,
+human
+        };

@@ -24,8 +24,12 @@ const fs = require('fs');
                 file.split('.').at(0)
             );
         }
-
-        fs.writeFileSync(dirBarrelFile, dirBarrelFileImports.map(name => `export * as ${name} from './${name}';`).join("\n"));
+        const imports = dirBarrelFileImports.map(name => `import ${name} from './${name}';`).join("\n");
+        const exports = `export {
+            ${dirBarrelFileImports.join(",\n")}
+        };`
+        const final = imports + "\n\n" + exports;
+        fs.writeFileSync(dirBarrelFile, final);
     }
 
     fs.writeFileSync(generatorBarrel, barrelFileImports.map(name => `export * as ${name} from './${name}';`).join("\n"));

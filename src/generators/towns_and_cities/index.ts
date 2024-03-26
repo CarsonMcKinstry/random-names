@@ -1,36 +1,75 @@
-export * as ancientGreekTowns from './ancientGreekTowns';
-export * as apocalypseTowns from './apocalypseTowns';
-export * as centralAfricanTowns from './centralAfricanTowns';
-export * as centralAmericanTowns from './centralAmericanTowns';
-export * as centralEastAfricanTowns from './centralEastAfricanTowns';
-export * as cityNicknames from './cityNicknames';
-export * as citys from './citys';
-export * as dwarvenCitys from './dwarvenCitys';
-export * as eastAsianTowns from './eastAsianTowns';
-export * as eastEuropeanTowns from './eastEuropeanTowns';
-export * as egyptianTowns from './egyptianTowns';
-export * as elvenCitys from './elvenCitys';
-export * as fantasyTowns from './fantasyTowns';
-export * as middleEasternTowns from './middleEasternTowns';
-export * as northAfricanTowns from './northAfricanTowns';
-export * as northAmericanTowns from './northAmericanTowns';
-export * as northEuropeanTowns from './northEuropeanTowns';
-export * as northernSouthAmericanTowns from './northernSouthAmericanTowns';
-export * as oceaniaTowns from './oceaniaTowns';
-export * as orcishCitys from './orcishCitys';
-export * as romanTowns from './romanTowns';
-export * as russianTowns from './russianTowns';
-export * as southAfricanTowns from './southAfricanTowns';
-export * as southAmericanTowns from './southAmericanTowns';
-export * as southAsianTowns from './southAsianTowns';
-export * as southEuropeanTowns from './southEuropeanTowns';
-export * as southeastAfricanTowns from './southeastAfricanTowns';
-export * as southeastAsianTowns from './southeastAsianTowns';
-export * as southeastEuropean from './southeastEuropean';
-export * as steampunkCitys from './steampunkCitys';
-export * as towns from './towns';
-export * as underwaterCitys from './underwaterCitys';
-export * as vikingTowns from './vikingTowns';
-export * as westAfricanTowns from './westAfricanTowns';
-export * as westEuropeanTowns from './westEuropeanTowns';
-export * as wildWestTowns from './wildWestTowns';
+import ancientGreekTowns from './ancientGreekTowns';
+import apocalypseTowns from './apocalypseTowns';
+import centralAfricanTowns from './centralAfricanTowns';
+import centralAmericanTowns from './centralAmericanTowns';
+import centralEastAfricanTowns from './centralEastAfricanTowns';
+import cityNicknames from './cityNicknames';
+import citys from './citys';
+import dwarvenCitys from './dwarvenCitys';
+import eastAsianTowns from './eastAsianTowns';
+import eastEuropeanTowns from './eastEuropeanTowns';
+import egyptianTowns from './egyptianTowns';
+import elvenCitys from './elvenCitys';
+import fantasyTowns from './fantasyTowns';
+import middleEasternTowns from './middleEasternTowns';
+import northAfricanTowns from './northAfricanTowns';
+import northAmericanTowns from './northAmericanTowns';
+import northEuropeanTowns from './northEuropeanTowns';
+import northernSouthAmericanTowns from './northernSouthAmericanTowns';
+import oceaniaTowns from './oceaniaTowns';
+import orcishCitys from './orcishCitys';
+import romanTowns from './romanTowns';
+import russianTowns from './russianTowns';
+import southAfricanTowns from './southAfricanTowns';
+import southAmericanTowns from './southAmericanTowns';
+import southAsianTowns from './southAsianTowns';
+import southEuropeanTowns from './southEuropeanTowns';
+import southeastAfricanTowns from './southeastAfricanTowns';
+import southeastAsianTowns from './southeastAsianTowns';
+import southeastEuropean from './southeastEuropean';
+import steampunkCitys from './steampunkCitys';
+import towns from './towns';
+import underwaterCitys from './underwaterCitys';
+import vikingTowns from './vikingTowns';
+import westAfricanTowns from './westAfricanTowns';
+import westEuropeanTowns from './westEuropeanTowns';
+import wildWestTowns from './wildWestTowns';
+
+export {
+            ancientGreekTowns,
+apocalypseTowns,
+centralAfricanTowns,
+centralAmericanTowns,
+centralEastAfricanTowns,
+cityNicknames,
+citys,
+dwarvenCitys,
+eastAsianTowns,
+eastEuropeanTowns,
+egyptianTowns,
+elvenCitys,
+fantasyTowns,
+middleEasternTowns,
+northAfricanTowns,
+northAmericanTowns,
+northEuropeanTowns,
+northernSouthAmericanTowns,
+oceaniaTowns,
+orcishCitys,
+romanTowns,
+russianTowns,
+southAfricanTowns,
+southAmericanTowns,
+southAsianTowns,
+southEuropeanTowns,
+southeastAfricanTowns,
+southeastAsianTowns,
+southeastEuropean,
+steampunkCitys,
+towns,
+underwaterCitys,
+vikingTowns,
+westAfricanTowns,
+westEuropeanTowns,
+wildWestTowns
+        };

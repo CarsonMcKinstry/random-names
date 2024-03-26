@@ -1,11 +1,25 @@
-export * as cathars from './cathars';
-export * as chiss from './chiss';
-export * as cyborgs from './cyborgs';
-export * as humanSws from './humanSws';
-export * as miralukas from './miralukas';
-export * as mirialans from './mirialans';
-export * as rattatakis from './rattatakis';
-export * as siths from './siths';
-export * as togrutas from './togrutas';
-export * as twileks from './twileks';
-export * as zabraks from './zabraks';
+import cathars from './cathars';
+import chiss from './chiss';
+import cyborgs from './cyborgs';
+import humanSws from './humanSws';
+import miralukas from './miralukas';
+import mirialans from './mirialans';
+import rattatakis from './rattatakis';
+import siths from './siths';
+import togrutas from './togrutas';
+import twileks from './twileks';
+import zabraks from './zabraks';
+
+export {
+            cathars,
+chiss,
+cyborgs,
+humanSws,
+miralukas,
+mirialans,
+rattatakis,
+siths,
+togrutas,
+twileks,
+zabraks
+        };

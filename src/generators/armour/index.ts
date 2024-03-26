@@ -1,10 +1,23 @@
-export * as belts from './belts';
-export * as boots from './boots';
-export * as chests from './chests';
-export * as cloaks from './cloaks';
-export * as gauntlets from './gauntlets';
-export * as helmets from './helmets';
-export * as legs from './legs';
-export * as pauldrons from './pauldrons';
-export * as shields from './shields';
-export * as vambraces from './vambraces';
+import belts from './belts';
+import boots from './boots';
+import chests from './chests';
+import cloaks from './cloaks';
+import gauntlets from './gauntlets';
+import helmets from './helmets';
+import legs from './legs';
+import pauldrons from './pauldrons';
+import shields from './shields';
+import vambraces from './vambraces';
+
+export {
+            belts,
+boots,
+chests,
+cloaks,
+gauntlets,
+helmets,
+legs,
+pauldrons,
+shields,
+vambraces
+        };

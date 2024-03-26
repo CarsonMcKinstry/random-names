@@ -1,7 +1,17 @@
-export * as daleks from './daleks';
-export * as gallifreyans from './gallifreyans';
-export * as iceWarriors from './iceWarriors';
-export * as raxacoricofallapatorians from './raxacoricofallapatorians';
-export * as silurians from './silurians';
-export * as sontarans from './sontarans';
-export * as zygons from './zygons';
+import daleks from './daleks';
+import gallifreyans from './gallifreyans';
+import iceWarriors from './iceWarriors';
+import raxacoricofallapatorians from './raxacoricofallapatorians';
+import silurians from './silurians';
+import sontarans from './sontarans';
+import zygons from './zygons';
+
+export {
+            daleks,
+gallifreyans,
+iceWarriors,
+raxacoricofallapatorians,
+silurians,
+sontarans,
+zygons
+        };

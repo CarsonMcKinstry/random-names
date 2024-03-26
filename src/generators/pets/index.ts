@@ -1,28 +1,59 @@
-export * as aliens from './aliens';
-export * as amphibians from './amphibians';
-export * as bats from './bats';
-export * as bears from './bears';
-export * as birdOfPreys from './birdOfPreys';
-export * as birds from './birds';
-export * as cats from './cats';
-export * as cows from './cows';
-export * as crabs from './crabs';
-export * as deers from './deers';
-export * as dogs from './dogs';
-export * as elephants from './elephants';
-export * as fishs from './fishs';
-export * as horses from './horses';
-export * as insects from './insects';
-export * as lions from './lions';
-export * as marineMammals from './marineMammals';
-export * as monkeys from './monkeys';
-export * as mouses from './mouses';
-export * as owls from './owls';
-export * as parrots from './parrots';
-export * as pigs from './pigs';
-export * as rabbits from './rabbits';
-export * as reptiles from './reptiles';
-export * as rodents from './rodents';
-export * as sheeps from './sheeps';
-export * as turtles from './turtles';
-export * as wolfs from './wolfs';
+import aliens from './aliens';
+import amphibians from './amphibians';
+import bats from './bats';
+import bears from './bears';
+import birdOfPreys from './birdOfPreys';
+import birds from './birds';
+import cats from './cats';
+import cows from './cows';
+import crabs from './crabs';
+import deers from './deers';
+import dogs from './dogs';
+import elephants from './elephants';
+import fishs from './fishs';
+import horses from './horses';
+import insects from './insects';
+import lions from './lions';
+import marineMammals from './marineMammals';
+import monkeys from './monkeys';
+import mouses from './mouses';
+import owls from './owls';
+import parrots from './parrots';
+import pigs from './pigs';
+import rabbits from './rabbits';
+import reptiles from './reptiles';
+import rodents from './rodents';
+import sheeps from './sheeps';
+import turtles from './turtles';
+import wolfs from './wolfs';
+
+export {
+            aliens,
+amphibians,
+bats,
+bears,
+birdOfPreys,
+birds,
+cats,
+cows,
+crabs,
+deers,
+dogs,
+elephants,
+fishs,
+horses,
+insects,
+lions,
+marineMammals,
+monkeys,
+mouses,
+owls,
+parrots,
+pigs,
+rabbits,
+reptiles,
+rodents,
+sheeps,
+turtles,
+wolfs
+        };

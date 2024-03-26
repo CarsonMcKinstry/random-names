@@ -1,4 +1,4 @@
-import { sample } from 'lodash-es';
+import { sample } from 'lodash';
 
 export default function wolfs() {
     let names: string;

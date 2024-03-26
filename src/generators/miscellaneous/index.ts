@@ -1,124 +1,251 @@
-export * as afterlifes from './afterlifes';
-export * as airplanes from './airplanes';
-export * as airships from './airships';
-export * as alliances from './alliances';
-export * as animalGroups from './animalGroups';
-export * as animeAttacks from './animeAttacks';
-export * as apocalypses from './apocalypses';
-export * as armys from './armys';
-export * as artifacts from './artifacts';
-export * as attackMoves from './attackMoves';
-export * as awards from './awards';
-export * as bands from './bands';
-export * as battles from './battles';
-export * as birds from './birds';
-export * as boardGames from './boardGames';
-export * as bookTitles from './bookTitles';
-export * as bouquets from './bouquets';
-export * as brands from './brands';
-export * as candys from './candys';
-export * as cars from './cars';
-export * as chivalricOrders from './chivalricOrders';
-export * as class from './class';
-export * as clothingBrands from './clothingBrands';
-export * as colors from './colors';
-export * as constellations from './constellations';
-export * as creepypastas from './creepypastas';
-export * as crops from './crops';
-export * as currencys from './currencys';
-export * as dances from './dances';
-export * as dates from './dates';
-export * as dinosaurs from './dinosaurs';
-export * as diseases from './diseases';
-export * as drinks from './drinks';
-export * as drugs from './drugs';
-export * as enchantments from './enchantments';
-export * as energyTypes from './energyTypes';
-export * as epithets from './epithets';
-export * as evilGroups from './evilGroups';
-export * as foods from './foods';
-export * as fruitVegetables from './fruitVegetables';
-export * as fungis from './fungis';
-export * as galaxys from './galaxys';
-export * as gameEngines from './gameEngines';
-export * as gameSoundtracks from './gameSoundtracks';
-export * as gangs from './gangs';
-export * as gearEnchantments from './gearEnchantments';
-export * as gemMinerals from './gemMinerals';
-export * as graffitiTags from './graffitiTags';
-export * as guilds from './guilds';
-export * as hackers from './hackers';
-export * as heists from './heists';
-export * as helicopters from './helicopters';
-export * as herbs from './herbs';
-export * as holidays from './holidays';
-export * as holyBooks from './holyBooks';
-export * as humanSpecies from './humanSpecies';
-export * as instruments from './instruments';
-export * as inventions from './inventions';
-export * as jewelrys from './jewelrys';
-export * as languages from './languages';
-export * as loveNicknames from './loveNicknames';
-export * as magazines from './magazines';
-export * as magicTypes from './magicTypes';
-export * as magicalDiseases from './magicalDiseases';
-export * as magicalPlants from './magicalPlants';
-export * as magicalTrees from './magicalTrees';
-export * as martialArts from './martialArts';
-export * as mascots from './mascots';
-export * as medicines from './medicines';
-export * as metals from './metals';
-export * as militaryDivisions from './militaryDivisions';
-export * as militaryOperations from './militaryOperations';
-export * as militaryRanks from './militaryRanks';
-export * as militaryVehicles from './militaryVehicles';
-export * as molecules from './molecules';
-export * as motorcycleClubs from './motorcycleClubs';
-export * as mutantPlants from './mutantPlants';
-export * as naturalDisasters from './naturalDisasters';
-export * as newspapers from './newspapers';
-export * as nicknames from './nicknames';
-export * as nobleHouses from './nobleHouses';
-export * as pirateCrews from './pirateCrews';
-export * as pirateShips from './pirateShips';
-export * as plagues from './plagues';
-export * as plants from './plants';
-export * as poisons from './poisons';
-export * as politicalPartys from './politicalPartys';
-export * as postApocalypticSocietys from './postApocalypticSocietys';
-export * as potions from './potions';
-export * as professions from './professions';
-export * as racers from './racers';
-export * as railways from './railways';
-export * as ranks from './ranks';
-export * as religions from './religions';
-export * as scientificCreatures from './scientificCreatures';
-export * as ships from './ships';
-export * as siegeEngines from './siegeEngines';
-export * as softwares from './softwares';
-export * as songTitles from './songTitles';
-export * as spaceFleets from './spaceFleets';
-export * as spaceships from './spaceships';
-export * as spells from './spells';
-export * as sports from './sports';
-export * as sportsTeams from './sportsTeams';
-export * as squads from './squads';
-export * as superpowers from './superpowers';
-export * as teleportations from './teleportations';
-export * as thrones from './thrones';
-export * as timePeriods from './timePeriods';
-export * as titles from './titles';
-export * as toolNicknames from './toolNicknames';
-export * as treatys from './treatys';
-export * as trees from './trees';
-export * as tribals from './tribals';
-export * as tribes from './tribes';
-export * as usernames from './usernames';
-export * as vehicles from './vehicles';
-export * as videoGames from './videoGames';
-export * as vocalGroups from './vocalGroups';
-export * as weaponAbilities from './weaponAbilities';
-export * as webSeries from './webSeries';
-export * as wines from './wines';
-export * as wrestlers from './wrestlers';
-export * as wrestlingMoves from './wrestlingMoves';
+import afterlifes from './afterlifes';
+import airplanes from './airplanes';
+import airships from './airships';
+import alliances from './alliances';
+import animalGroups from './animalGroups';
+import animeAttacks from './animeAttacks';
+import apocalypses from './apocalypses';
+import armys from './armys';
+import artifacts from './artifacts';
+import attackMoves from './attackMoves';
+import awards from './awards';
+import bands from './bands';
+import battles from './battles';
+import birds from './birds';
+import boardGames from './boardGames';
+import bookTitles from './bookTitles';
+import bouquets from './bouquets';
+import brands from './brands';
+import candys from './candys';
+import cars from './cars';
+import chivalricOrders from './chivalricOrders';
+import clothingBrands from './clothingBrands';
+import colors from './colors';
+import constellations from './constellations';
+import creepypastas from './creepypastas';
+import crops from './crops';
+import currencys from './currencys';
+import dances from './dances';
+import dates from './dates';
+import dinosaurs from './dinosaurs';
+import diseases from './diseases';
+import drinks from './drinks';
+import drugs from './drugs';
+import enchantments from './enchantments';
+import energyTypes from './energyTypes';
+import epithets from './epithets';
+import evilGroups from './evilGroups';
+import fantasyClass from './fantasyClass';
+import foods from './foods';
+import fruitVegetables from './fruitVegetables';
+import fungis from './fungis';
+import galaxys from './galaxys';
+import gameEngines from './gameEngines';
+import gameSoundtracks from './gameSoundtracks';
+import gangs from './gangs';
+import gearEnchantments from './gearEnchantments';
+import gemMinerals from './gemMinerals';
+import graffitiTags from './graffitiTags';
+import guilds from './guilds';
+import hackers from './hackers';
+import heists from './heists';
+import helicopters from './helicopters';
+import herbs from './herbs';
+import holidays from './holidays';
+import holyBooks from './holyBooks';
+import humanSpecies from './humanSpecies';
+import instruments from './instruments';
+import inventions from './inventions';
+import jewelrys from './jewelrys';
+import languages from './languages';
+import loveNicknames from './loveNicknames';
+import magazines from './magazines';
+import magicTypes from './magicTypes';
+import magicalDiseases from './magicalDiseases';
+import magicalPlants from './magicalPlants';
+import magicalTrees from './magicalTrees';
+import martialArts from './martialArts';
+import mascots from './mascots';
+import medicines from './medicines';
+import metals from './metals';
+import militaryDivisions from './militaryDivisions';
+import militaryOperations from './militaryOperations';
+import militaryRanks from './militaryRanks';
+import militaryVehicles from './militaryVehicles';
+import molecules from './molecules';
+import motorcycleClubs from './motorcycleClubs';
+import mutantPlants from './mutantPlants';
+import naturalDisasters from './naturalDisasters';
+import newspapers from './newspapers';
+import nicknames from './nicknames';
+import nobleHouses from './nobleHouses';
+import pirateCrews from './pirateCrews';
+import pirateShips from './pirateShips';
+import plagues from './plagues';
+import plants from './plants';
+import poisons from './poisons';
+import politicalPartys from './politicalPartys';
+import postApocalypticSocietys from './postApocalypticSocietys';
+import potions from './potions';
+import professions from './professions';
+import racers from './racers';
+import railways from './railways';
+import ranks from './ranks';
+import religions from './religions';
+import scientificCreatures from './scientificCreatures';
+import ships from './ships';
+import siegeEngines from './siegeEngines';
+import softwares from './softwares';
+import songTitles from './songTitles';
+import spaceFleets from './spaceFleets';
+import spaceships from './spaceships';
+import spells from './spells';
+import sports from './sports';
+import sportsTeams from './sportsTeams';
+import squads from './squads';
+import superpowers from './superpowers';
+import teleportations from './teleportations';
+import thrones from './thrones';
+import timePeriods from './timePeriods';
+import titles from './titles';
+import toolNicknames from './toolNicknames';
+import treatys from './treatys';
+import trees from './trees';
+import tribals from './tribals';
+import tribes from './tribes';
+import usernames from './usernames';
+import vehicles from './vehicles';
+import videoGames from './videoGames';
+import vocalGroups from './vocalGroups';
+import weaponAbilities from './weaponAbilities';
+import webSeries from './webSeries';
+import wines from './wines';
+import wrestlers from './wrestlers';
+import wrestlingMoves from './wrestlingMoves';
+
+export {
+            afterlifes,
+airplanes,
+airships,
+alliances,
+animalGroups,
+animeAttacks,
+apocalypses,
+armys,
+artifacts,
+attackMoves,
+awards,
+bands,
+battles,
+birds,
+boardGames,
+bookTitles,
+bouquets,
+brands,
+candys,
+cars,
+chivalricOrders,
+clothingBrands,
+colors,
+constellations,
+creepypastas,
+crops,
+currencys,
+dances,
+dates,
+dinosaurs,
+diseases,
+drinks,
+drugs,
+enchantments,
+energyTypes,
+epithets,
+evilGroups,
+fantasyClass,
+foods,
+fruitVegetables,
+fungis,
+galaxys,
+gameEngines,
+gameSoundtracks,
+gangs,
+gearEnchantments,
+gemMinerals,
+graffitiTags,
+guilds,
+hackers,
+heists,
+helicopters,
+herbs,
+holidays,
+holyBooks,
+humanSpecies,
+instruments,
+inventions,
+jewelrys,
+languages,
+loveNicknames,
+magazines,
+magicTypes,
+magicalDiseases,
+magicalPlants,
+magicalTrees,
+martialArts,
+mascots,
+medicines,
+metals,
+militaryDivisions,
+militaryOperations,
+militaryRanks,
+militaryVehicles,
+molecules,
+motorcycleClubs,
+mutantPlants,
+naturalDisasters,
+newspapers,
+nicknames,
+nobleHouses,
+pirateCrews,
+pirateShips,
+plagues,
+plants,
+poisons,
+politicalPartys,
+postApocalypticSocietys,
+potions,
+professions,
+racers,
+railways,
+ranks,
+religions,
+scientificCreatures,
+ships,
+siegeEngines,
+softwares,
+songTitles,
+spaceFleets,
+spaceships,
+spells,
+sports,
+sportsTeams,
+squads,
+superpowers,
+teleportations,
+thrones,
+timePeriods,
+titles,
+toolNicknames,
+treatys,
+trees,
+tribals,
+tribes,
+usernames,
+vehicles,
+videoGames,
+vocalGroups,
+weaponAbilities,
+webSeries,
+wines,
+wrestlers,
+wrestlingMoves
+        };

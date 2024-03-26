@@ -1,23 +1,49 @@
-export * as aasimars from './aasimars';
-export * as catfolks from './catfolks';
-export * as drows from './drows';
-export * as dwarfs from './dwarfs';
-export * as elfs from './elfs';
-export * as fetchlings from './fetchlings';
-export * as gnomes from './gnomes';
-export * as goblins from './goblins';
-export * as halfElfs from './halfElfs';
-export * as halfOrcs from './halfOrcs';
-export * as halflings from './halflings';
-export * as hobgoblins from './hobgoblins';
-export * as humans from './humans';
-export * as ifrits from './ifrits';
-export * as kobolds from './kobolds';
-export * as orcs from './orcs';
-export * as oreads from './oreads';
-export * as ratfolks from './ratfolks';
-export * as sylphs from './sylphs';
-export * as tengus from './tengus';
-export * as tians from './tians';
-export * as tieflings from './tieflings';
-export * as undines from './undines';
+import aasimars from './aasimars';
+import catfolks from './catfolks';
+import drows from './drows';
+import dwarfs from './dwarfs';
+import elfs from './elfs';
+import fetchlings from './fetchlings';
+import gnomes from './gnomes';
+import goblins from './goblins';
+import halfElfs from './halfElfs';
+import halfOrcs from './halfOrcs';
+import halflings from './halflings';
+import hobgoblins from './hobgoblins';
+import humans from './humans';
+import ifrits from './ifrits';
+import kobolds from './kobolds';
+import orcs from './orcs';
+import oreads from './oreads';
+import ratfolks from './ratfolks';
+import sylphs from './sylphs';
+import tengus from './tengus';
+import tians from './tians';
+import tieflings from './tieflings';
+import undines from './undines';
+
+export {
+            aasimars,
+catfolks,
+drows,
+dwarfs,
+elfs,
+fetchlings,
+gnomes,
+goblins,
+halfElfs,
+halfOrcs,
+halflings,
+hobgoblins,
+humans,
+ifrits,
+kobolds,
+orcs,
+oreads,
+ratfolks,
+sylphs,
+tengus,
+tians,
+tieflings,
+undines
+        };

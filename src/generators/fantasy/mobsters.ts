@@ -1,4 +1,4 @@
-import { sample } from 'lodash-es';
+import { sample } from 'lodash';
 
 export default function mobsters() {
     const type = Math.random() > 0.5 ? 0 : 1;

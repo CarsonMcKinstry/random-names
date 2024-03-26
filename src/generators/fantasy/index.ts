@@ -1,96 +1,195 @@
-export * as aliens from './aliens';
-export * as amazons from './amazons';
-export * as angels from './angels';
-export * as animalSpecies from './animalSpecies';
-export * as animatronics from './animatronics';
-export * as apocalypseMutants from './apocalypseMutants';
-export * as bandits from './bandits';
-export * as barbarians from './barbarians';
-export * as bountyHunters from './bountyHunters';
-export * as catPeopleNekojins from './catPeopleNekojins';
-export * as cavemens from './cavemens';
-export * as centaurs from './centaurs';
-export * as christmasElfs from './christmasElfs';
-export * as codes from './codes';
-export * as cowboys from './cowboys';
-export * as creatures from './creatures';
-export * as deaths from './deaths';
-export * as demons from './demons';
-export * as detectives from './detectives';
-export * as dragons from './dragons';
-export * as dryads from './dryads';
-export * as dwarfs from './dwarfs';
-export * as elementals from './elementals';
-export * as elfs from './elfs';
-export * as ents from './ents';
-export * as evils from './evils';
-export * as fairys from './fairys';
-export * as fantasyAnimals from './fantasyAnimals';
-export * as fantasyRaces from './fantasyRaces';
-export * as fantasySurnames from './fantasySurnames';
-export * as fursonas from './fursonas';
-export * as futuristics from './futuristics';
-export * as ghostClassifications from './ghostClassifications';
-export * as ghosts from './ghosts';
-export * as giants from './giants';
-export * as gnolls from './gnolls';
-export * as gnomes from './gnomes';
-export * as goblins from './goblins';
-export * as gods from './gods';
-export * as gorgons from './gorgons';
-export * as griffins from './griffins';
-export * as halfElfs from './halfElfs';
-export * as harpys from './harpys';
-export * as heros from './heros';
-export * as hobbits from './hobbits';
-export * as horses from './horses';
-export * as imps from './imps';
-export * as kaijus from './kaijus';
-export * as killers from './killers';
-export * as knights from './knights';
-export * as kobolds from './kobolds';
-export * as lamias from './lamias';
-export * as lichs from './lichs';
-export * as mechas from './mechas';
-export * as medievals from './medievals';
-export * as mermaids from './mermaids';
-export * as minotaurs from './minotaurs';
-export * as mobsters from './mobsters';
-export * as monsters from './monsters';
-export * as mutantSpecies from './mutantSpecies';
-export * as nagas from './nagas';
-export * as necromancers from './necromancers';
-export * as nephilims from './nephilims';
-export * as ninjas from './ninjas';
-export * as nymphs from './nymphs';
-export * as ogres from './ogres';
-export * as orcs from './orcs';
-export * as pegasus from './pegasus';
-export * as phoenixs from './phoenixs';
-export * as pirates from './pirates';
-export * as robots from './robots';
-export * as satyrFauns from './satyrFauns';
-export * as seaCreatures from './seaCreatures';
-export * as servants from './servants';
-export * as shapeshifters from './shapeshifters';
-export * as sirens from './sirens';
-export * as slaves from './slaves';
-export * as species from './species';
-export * as steampunks from './steampunks';
-export * as succubus from './succubus';
-export * as superheroTeams from './superheroTeams';
-export * as sylphs from './sylphs';
-export * as taurens from './taurens';
-export * as trolls from './trolls';
-export * as twins from './twins';
-export * as unicorns from './unicorns';
-export * as valkyries from './valkyries';
-export * as vampireClans from './vampireClans';
-export * as vampires from './vampires';
-export * as villains from './villains';
-export * as warriorNicknames from './warriorNicknames';
-export * as werewolfPacks from './werewolfPacks';
-export * as werewolfs from './werewolfs';
-export * as witchs from './witchs';
-export * as wizards from './wizards';
-export * as zombieTypes from './zombieTypes';
+import aliens from './aliens';
+import amazons from './amazons';
+import angels from './angels';
+import animalSpecies from './animalSpecies';
+import animatronics from './animatronics';
+import apocalypseMutants from './apocalypseMutants';
+import bandits from './bandits';
+import barbarians from './barbarians';
+import bountyHunters from './bountyHunters';
+import catPeopleNekojins from './catPeopleNekojins';
+import cavemens from './cavemens';
+import centaurs from './centaurs';
+import christmasElfs from './christmasElfs';
+import codes from './codes';
+import cowboys from './cowboys';
+import creatures from './creatures';
+import deaths from './deaths';
+import demons from './demons';
+import detectives from './detectives';
+import dragons from './dragons';
+import dryads from './dryads';
+import dwarfs from './dwarfs';
+import elementals from './elementals';
+import elfs from './elfs';
+import ents from './ents';
+import evils from './evils';
+import fairys from './fairys';
+import fantasyAnimals from './fantasyAnimals';
+import fantasyRaces from './fantasyRaces';
+import fantasySurnames from './fantasySurnames';
+import fursonas from './fursonas';
+import futuristics from './futuristics';
+import ghostClassifications from './ghostClassifications';
+import ghosts from './ghosts';
+import giants from './giants';
+import gnolls from './gnolls';
+import gnomes from './gnomes';
+import goblins from './goblins';
+import gods from './gods';
+import gorgons from './gorgons';
+import griffins from './griffins';
+import halfElfs from './halfElfs';
+import harpys from './harpys';
+import heros from './heros';
+import hobbits from './hobbits';
+import horses from './horses';
+import imps from './imps';
+import kaijus from './kaijus';
+import killers from './killers';
+import knights from './knights';
+import kobolds from './kobolds';
+import lamias from './lamias';
+import lichs from './lichs';
+import mechas from './mechas';
+import medievals from './medievals';
+import mermaids from './mermaids';
+import minotaurs from './minotaurs';
+import mobsters from './mobsters';
+import monsters from './monsters';
+import mutantSpecies from './mutantSpecies';
+import nagas from './nagas';
+import necromancers from './necromancers';
+import nephilims from './nephilims';
+import ninjas from './ninjas';
+import nymphs from './nymphs';
+import ogres from './ogres';
+import orcs from './orcs';
+import pegasus from './pegasus';
+import phoenixs from './phoenixs';
+import pirates from './pirates';
+import robots from './robots';
+import satyrFauns from './satyrFauns';
+import seaCreatures from './seaCreatures';
+import servants from './servants';
+import shapeshifters from './shapeshifters';
+import sirens from './sirens';
+import slaves from './slaves';
+import species from './species';
+import steampunks from './steampunks';
+import succubus from './succubus';
+import superheroTeams from './superheroTeams';
+import sylphs from './sylphs';
+import taurens from './taurens';
+import trolls from './trolls';
+import twins from './twins';
+import unicorns from './unicorns';
+import valkyries from './valkyries';
+import vampireClans from './vampireClans';
+import vampires from './vampires';
+import villains from './villains';
+import warriorNicknames from './warriorNicknames';
+import werewolfPacks from './werewolfPacks';
+import werewolfs from './werewolfs';
+import witchs from './witchs';
+import wizards from './wizards';
+import zombieTypes from './zombieTypes';
+
+export {
+            aliens,
+amazons,
+angels,
+animalSpecies,
+animatronics,
+apocalypseMutants,
+bandits,
+barbarians,
+bountyHunters,
+catPeopleNekojins,
+cavemens,
+centaurs,
+christmasElfs,
+codes,
+cowboys,
+creatures,
+deaths,
+demons,
+detectives,
+dragons,
+dryads,
+dwarfs,
+elementals,
+elfs,
+ents,
+evils,
+fairys,
+fantasyAnimals,
+fantasyRaces,
+fantasySurnames,
+fursonas,
+futuristics,
+ghostClassifications,
+ghosts,
+giants,
+gnolls,
+gnomes,
+goblins,
+gods,
+gorgons,
+griffins,
+halfElfs,
+harpys,
+heros,
+hobbits,
+horses,
+imps,
+kaijus,
+killers,
+knights,
+kobolds,
+lamias,
+lichs,
+mechas,
+medievals,
+mermaids,
+minotaurs,
+mobsters,
+monsters,
+mutantSpecies,
+nagas,
+necromancers,
+nephilims,
+ninjas,
+nymphs,
+ogres,
+orcs,
+pegasus,
+phoenixs,
+pirates,
+robots,
+satyrFauns,
+seaCreatures,
+servants,
+shapeshifters,
+sirens,
+slaves,
+species,
+steampunks,
+succubus,
+superheroTeams,
+sylphs,
+taurens,
+trolls,
+twins,
+unicorns,
+valkyries,
+vampireClans,
+vampires,
+villains,
+warriorNicknames,
+werewolfPacks,
+werewolfs,
+witchs,
+wizards,
+zombieTypes
+        };

@@ -1,8 +1,19 @@
-export * as forerunners from './forerunners';
-export * as huragoks from './huragoks';
-export * as jiralhanaes from './jiralhanaes';
-export * as kigYars from './kigYars';
-export * as mgalekgolos from './mgalekgolos';
-export * as sanShyuums from './sanShyuums';
-export * as sangheilis from './sangheilis';
-export * as unggoys from './unggoys';
+import forerunners from './forerunners';
+import huragoks from './huragoks';
+import jiralhanaes from './jiralhanaes';
+import kigYars from './kigYars';
+import mgalekgolos from './mgalekgolos';
+import sanShyuums from './sanShyuums';
+import sangheilis from './sangheilis';
+import unggoys from './unggoys';
+
+export {
+            forerunners,
+huragoks,
+jiralhanaes,
+kigYars,
+mgalekgolos,
+sanShyuums,
+sangheilis,
+unggoys
+        };

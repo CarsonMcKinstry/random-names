@@ -1,25 +1,53 @@
-export * as arthurians from './arthurians';
-export * as avatarLastAirbenders from './avatarLastAirbenders';
-export * as digimons from './digimons';
-export * as dragonridersOfPerns from './dragonridersOfPerns';
-export * as homestucks from './homestucks';
-export * as howToTrainYourDragons from './howToTrainYourDragons';
-export * as hungerGames from './hungerGames';
-export * as hyborians from './hyborians';
-export * as lovecraftians from './lovecraftians';
-export * as mazeRunners from './mazeRunners';
-export * as mortalKombats from './mortalKombats';
-export * as myLittlePonys from './myLittlePonys';
-export * as onePieceDevilFruits from './onePieceDevilFruits';
-export * as pacificRims from './pacificRims';
-export * as pokemons from './pokemons';
-export * as rwbys from './rwbys';
-export * as shadowhunterChronicles from './shadowhunterChronicles';
-export * as skulduggeryPleasants from './skulduggeryPleasants';
-export * as starcrafts from './starcrafts';
-export * as stormlightArchives from './stormlightArchives';
-export * as transformers from './transformers';
-export * as warriorCats from './warriorCats';
-export * as wheelOfTimes from './wheelOfTimes';
-export * as wingsOfFires from './wingsOfFires';
-export * as xMens from './xMens';
+import arthurians from './arthurians';
+import avatarLastAirbenders from './avatarLastAirbenders';
+import digimons from './digimons';
+import dragonridersOfPerns from './dragonridersOfPerns';
+import homestucks from './homestucks';
+import howToTrainYourDragons from './howToTrainYourDragons';
+import hungerGames from './hungerGames';
+import hyborians from './hyborians';
+import lovecraftians from './lovecraftians';
+import mazeRunners from './mazeRunners';
+import mortalKombats from './mortalKombats';
+import myLittlePonys from './myLittlePonys';
+import onePieceDevilFruits from './onePieceDevilFruits';
+import pacificRims from './pacificRims';
+import pokemons from './pokemons';
+import rwbys from './rwbys';
+import shadowhunterChronicles from './shadowhunterChronicles';
+import skulduggeryPleasants from './skulduggeryPleasants';
+import starcrafts from './starcrafts';
+import stormlightArchives from './stormlightArchives';
+import transformers from './transformers';
+import warriorCats from './warriorCats';
+import wheelOfTimes from './wheelOfTimes';
+import wingsOfFires from './wingsOfFires';
+import xMens from './xMens';
+
+export {
+            arthurians,
+avatarLastAirbenders,
+digimons,
+dragonridersOfPerns,
+homestucks,
+howToTrainYourDragons,
+hungerGames,
+hyborians,
+lovecraftians,
+mazeRunners,
+mortalKombats,
+myLittlePonys,
+onePieceDevilFruits,
+pacificRims,
+pokemons,
+rwbys,
+shadowhunterChronicles,
+skulduggeryPleasants,
+starcrafts,
+stormlightArchives,
+transformers,
+warriorCats,
+wheelOfTimes,
+wingsOfFires,
+xMens
+        };

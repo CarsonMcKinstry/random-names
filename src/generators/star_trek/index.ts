@@ -1,21 +1,45 @@
-export * as andorians from './andorians';
-export * as bajorans from './bajorans';
-export * as benzites from './benzites';
-export * as betazoids from './betazoids';
-export * as bolians from './bolians';
-export * as caitians from './caitians';
-export * as ferengis from './ferengis';
-export * as gorns from './gorns';
-export * as jemhadars from './jemhadars';
-export * as klingons from './klingons';
-export * as letheans from './letheans';
-export * as nausicaans from './nausicaans';
-export * as orions from './orions';
-export * as pakleds from './pakleds';
-export * as remans from './remans';
-export * as rigelians from './rigelians';
-export * as romulans from './romulans';
-export * as saurians from './saurians';
-export * as tellarites from './tellarites';
-export * as trills from './trills';
-export * as vulcans from './vulcans';
+import andorians from './andorians';
+import bajorans from './bajorans';
+import benzites from './benzites';
+import betazoids from './betazoids';
+import bolians from './bolians';
+import caitians from './caitians';
+import ferengis from './ferengis';
+import gorns from './gorns';
+import jemhadars from './jemhadars';
+import klingons from './klingons';
+import letheans from './letheans';
+import nausicaans from './nausicaans';
+import orions from './orions';
+import pakleds from './pakleds';
+import remans from './remans';
+import rigelians from './rigelians';
+import romulans from './romulans';
+import saurians from './saurians';
+import tellarites from './tellarites';
+import trills from './trills';
+import vulcans from './vulcans';
+
+export {
+            andorians,
+bajorans,
+benzites,
+betazoids,
+bolians,
+caitians,
+ferengis,
+gorns,
+jemhadars,
+klingons,
+letheans,
+nausicaans,
+orions,
+pakleds,
+remans,
+rigelians,
+romulans,
+saurians,
+tellarites,
+trills,
+vulcans
+        };

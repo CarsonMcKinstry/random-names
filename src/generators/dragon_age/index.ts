@@ -1,4 +1,11 @@
-export * as dwarfs from './dwarfs';
-export * as elfs from './elfs';
-export * as humans from './humans';
-export * as qunaris from './qunaris';
+import dwarfs from './dwarfs';
+import elfs from './elfs';
+import humans from './humans';
+import qunaris from './qunaris';
+
+export {
+            dwarfs,
+elfs,
+humans,
+qunaris
+        };

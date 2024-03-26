@@ -1,5 +1,13 @@
-export * as dragonSpecies from './dragonSpecies';
-export * as goblins from './goblins';
-export * as hippogriffs from './hippogriffs';
-export * as houseElfs from './houseElfs';
-export * as wingedHorses from './wingedHorses';
+import dragonSpecies from './dragonSpecies';
+import goblins from './goblins';
+import hippogriffs from './hippogriffs';
+import houseElfs from './houseElfs';
+import wingedHorses from './wingedHorses';
+
+export {
+            dragonSpecies,
+goblins,
+hippogriffs,
+houseElfs,
+wingedHorses
+        };

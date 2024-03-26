@@ -1,7 +1,17 @@
-export * as awokens from './awokens';
-export * as cabals from './cabals';
-export * as exos from './exos';
-export * as fallens from './fallens';
-export * as hives from './hives';
-export * as humans from './humans';
-export * as vexs from './vexs';
+import awokens from './awokens';
+import cabals from './cabals';
+import exos from './exos';
+import fallens from './fallens';
+import hives from './hives';
+import humans from './humans';
+import vexs from './vexs';
+
+export {
+            awokens,
+cabals,
+exos,
+fallens,
+hives,
+humans,
+vexs
+        };

@@ -1,16 +1,35 @@
-export * as altmers from './altmers';
-export * as argonians from './argonians';
-export * as bosmers from './bosmers';
-export * as bretons from './bretons';
-export * as daedrics from './daedrics';
-export * as dragons from './dragons';
-export * as dunmers from './dunmers';
-export * as dwemers from './dwemers';
-export * as falmers from './falmers';
-export * as forsworns from './forsworns';
-export * as imperials from './imperials';
-export * as khajiits from './khajiits';
-export * as nords from './nords';
-export * as orc from './orc';
-export * as redguards from './redguards';
-export * as spriggans from './spriggans';
+import altmers from './altmers';
+import argonians from './argonians';
+import bosmers from './bosmers';
+import bretons from './bretons';
+import daedrics from './daedrics';
+import dragons from './dragons';
+import dunmers from './dunmers';
+import dwemers from './dwemers';
+import falmers from './falmers';
+import forsworns from './forsworns';
+import imperials from './imperials';
+import khajiits from './khajiits';
+import nords from './nords';
+import orc from './orc';
+import redguards from './redguards';
+import spriggans from './spriggans';
+
+export {
+            altmers,
+argonians,
+bosmers,
+bretons,
+daedrics,
+dragons,
+dunmers,
+dwemers,
+falmers,
+forsworns,
+imperials,
+khajiits,
+nords,
+orc,
+redguards,
+spriggans
+        };

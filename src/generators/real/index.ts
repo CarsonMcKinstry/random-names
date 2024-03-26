@@ -1,130 +1,263 @@
-export * as aboriginals from './aboriginals';
-export * as africanAmericans from './africanAmericans';
-export * as akans from './akans';
-export * as albanians from './albanians';
-export * as algerians from './algerians';
-export * as amazighs from './amazighs';
-export * as ancientGreeks from './ancientGreeks';
-export * as angloSaxons from './angloSaxons';
-export * as argentinians from './argentinians';
-export * as armenians from './armenians';
-export * as assyrians from './assyrians';
-export * as azerbaijanis from './azerbaijanis';
-export * as aztecs from './aztecs';
-export * as babylonians from './babylonians';
-export * as basothos from './basothos';
-export * as basques from './basques';
-export * as belgians from './belgians';
-export * as bengalis from './bengalis';
-export * as biblicals from './biblicals';
-export * as bosnians from './bosnians';
-export * as brazilians from './brazilians';
-export * as bulgarians from './bulgarians';
-export * as burmeseMyanmars from './burmeseMyanmars';
-export * as cajuns from './cajuns';
-export * as catalans from './catalans';
-export * as celticBretons from './celticBretons';
-export * as celticWelshs from './celticWelshs';
-export * as celtics from './celtics';
-export * as chineses from './chineses';
-export * as circassians from './circassians';
-export * as colonialAmericans from './colonialAmericans';
-export * as croatians from './croatians';
-export * as czechs from './czechs';
-export * as danishs from './danishs';
-export * as dutchs from './dutchs';
-export * as edoJapaneses from './edoJapaneses';
-export * as edwardians from './edwardians';
-export * as egyptians from './egyptians';
-export * as englishs from './englishs';
-export * as enochians from './enochians';
-export * as estonians from './estonians';
-export * as ethiopians from './ethiopians';
-export * as faroeses from './faroeses';
-export * as filipinos from './filipinos';
-export * as finnishs from './finnishs';
-export * as frankishs from './frankishs';
-export * as frenchs from './frenchs';
-export * as frisians from './frisians';
-export * as georgians from './georgians';
-export * as germans from './germans';
-export * as gothics from './gothics';
-export * as greeks from './greeks';
-export * as hausas from './hausas';
-export * as hawaiians from './hawaiians';
-export * as hebrews from './hebrews';
-export * as hillbillys from './hillbillys';
-export * as hindus from './hindus';
-export * as hippies from './hippies';
-export * as hispanics from './hispanics';
-export * as hungarians from './hungarians';
-export * as icelandics from './icelandics';
-export * as indonesians from './indonesians';
-export * as inuits from './inuits';
-export * as irishs from './irishs';
-export * as italians from './italians';
-export * as jamaicans from './jamaicans';
-export * as japaneses from './japaneses';
-export * as jewishs from './jewishs';
-export * as kazakhs from './kazakhs';
-export * as khmers from './khmers';
-export * as koreans from './koreans';
-export * as kurdishs from './kurdishs';
-export * as laotians from './laotians';
-export * as latins from './latins';
-export * as latvians from './latvians';
-export * as lithuanians from './lithuanians';
-export * as malaysians from './malaysians';
-export * as malteses from './malteses';
-export * as maoris from './maoris';
-export * as mayans from './mayans';
-export * as modernEgyptians from './modernEgyptians';
-export * as mongolians from './mongolians';
-export * as moroccans from './moroccans';
-export * as muslims from './muslims';
-export * as nativeAmericans from './nativeAmericans';
-export * as natures from './natures';
-export * as nepaleses from './nepaleses';
-export * as normans from './normans';
-export * as norwegians from './norwegians';
-export * as oldHighGermans from './oldHighGermans';
-export * as pashtuns from './pashtuns';
-export * as persians from './persians';
-export * as polishs from './polishs';
-export * as portugueses from './portugueses';
-export * as poshs from './poshs';
-export * as punjabis from './punjabis';
-export * as puritans from './puritans';
-export * as quebecois from './quebecois';
-export * as romaGypsys from './romaGypsys';
-export * as romanians from './romanians';
-export * as romans from './romans';
-export * as russians from './russians';
-export * as serbians from './serbians';
-export * as shakespeareans from './shakespeareans';
-export * as shonas from './shonas';
-export * as sikhs from './sikhs';
-export * as sinhaleses from './sinhaleses';
-export * as slavics from './slavics';
-export * as slovenians from './slovenians';
-export * as somalis from './somalis';
-export * as stages from './stages';
-export * as suebis from './suebis';
-export * as sumerians from './sumerians';
-export * as swahilis from './swahilis';
-export * as swedishs from './swedishs';
-export * as swiss from './swiss';
-export * as tajiks from './tajiks';
-export * as tamils from './tamils';
-export * as telugus from './telugus';
-export * as thais from './thais';
-export * as tibetans from './tibetans';
-export * as turkishs from './turkishs';
-export * as twentiethCenturyEnglishs from './twentiethCenturyEnglishs';
-export * as twins from './twins';
-export * as ukrainians from './ukrainians';
-export * as victorians from './victorians';
-export * as vietnameses from './vietnameses';
-export * as vikings from './vikings';
-export * as yorubas from './yorubas';
-export * as zulus from './zulus';
+import aboriginals from './aboriginals';
+import africanAmericans from './africanAmericans';
+import akans from './akans';
+import albanians from './albanians';
+import algerians from './algerians';
+import amazighs from './amazighs';
+import ancientGreeks from './ancientGreeks';
+import angloSaxons from './angloSaxons';
+import argentinians from './argentinians';
+import armenians from './armenians';
+import assyrians from './assyrians';
+import azerbaijanis from './azerbaijanis';
+import aztecs from './aztecs';
+import babylonians from './babylonians';
+import basothos from './basothos';
+import basques from './basques';
+import belgians from './belgians';
+import bengalis from './bengalis';
+import biblicals from './biblicals';
+import bosnians from './bosnians';
+import brazilians from './brazilians';
+import bulgarians from './bulgarians';
+import burmeseMyanmars from './burmeseMyanmars';
+import cajuns from './cajuns';
+import catalans from './catalans';
+import celticBretons from './celticBretons';
+import celticWelshs from './celticWelshs';
+import celtics from './celtics';
+import chineses from './chineses';
+import circassians from './circassians';
+import colonialAmericans from './colonialAmericans';
+import croatians from './croatians';
+import czechs from './czechs';
+import danishs from './danishs';
+import dutchs from './dutchs';
+import edoJapaneses from './edoJapaneses';
+import edwardians from './edwardians';
+import egyptians from './egyptians';
+import englishs from './englishs';
+import enochians from './enochians';
+import estonians from './estonians';
+import ethiopians from './ethiopians';
+import faroeses from './faroeses';
+import filipinos from './filipinos';
+import finnishs from './finnishs';
+import frankishs from './frankishs';
+import frenchs from './frenchs';
+import frisians from './frisians';
+import georgians from './georgians';
+import germans from './germans';
+import gothics from './gothics';
+import greeks from './greeks';
+import hausas from './hausas';
+import hawaiians from './hawaiians';
+import hebrews from './hebrews';
+import hillbillys from './hillbillys';
+import hindus from './hindus';
+import hippies from './hippies';
+import hispanics from './hispanics';
+import hungarians from './hungarians';
+import icelandics from './icelandics';
+import indonesians from './indonesians';
+import inuits from './inuits';
+import irishs from './irishs';
+import italians from './italians';
+import jamaicans from './jamaicans';
+import japaneses from './japaneses';
+import jewishs from './jewishs';
+import kazakhs from './kazakhs';
+import khmers from './khmers';
+import koreans from './koreans';
+import kurdishs from './kurdishs';
+import laotians from './laotians';
+import latins from './latins';
+import latvians from './latvians';
+import lithuanians from './lithuanians';
+import malaysians from './malaysians';
+import malteses from './malteses';
+import maoris from './maoris';
+import mayans from './mayans';
+import modernEgyptians from './modernEgyptians';
+import mongolians from './mongolians';
+import moroccans from './moroccans';
+import muslims from './muslims';
+import nativeAmericans from './nativeAmericans';
+import natures from './natures';
+import nepaleses from './nepaleses';
+import normans from './normans';
+import norwegians from './norwegians';
+import oldHighGermans from './oldHighGermans';
+import pashtuns from './pashtuns';
+import persians from './persians';
+import polishs from './polishs';
+import portugueses from './portugueses';
+import poshs from './poshs';
+import punjabis from './punjabis';
+import puritans from './puritans';
+import quebecois from './quebecois';
+import romaGypsys from './romaGypsys';
+import romanians from './romanians';
+import romans from './romans';
+import russians from './russians';
+import serbians from './serbians';
+import shakespeareans from './shakespeareans';
+import shonas from './shonas';
+import sikhs from './sikhs';
+import sinhaleses from './sinhaleses';
+import slavics from './slavics';
+import slovenians from './slovenians';
+import somalis from './somalis';
+import stages from './stages';
+import suebis from './suebis';
+import sumerians from './sumerians';
+import swahilis from './swahilis';
+import swedishs from './swedishs';
+import swiss from './swiss';
+import tajiks from './tajiks';
+import tamils from './tamils';
+import telugus from './telugus';
+import thais from './thais';
+import tibetans from './tibetans';
+import turkishs from './turkishs';
+import twentiethCenturyEnglishs from './twentiethCenturyEnglishs';
+import twins from './twins';
+import ukrainians from './ukrainians';
+import victorians from './victorians';
+import vietnameses from './vietnameses';
+import vikings from './vikings';
+import yorubas from './yorubas';
+import zulus from './zulus';
+
+export {
+            aboriginals,
+africanAmericans,
+akans,
+albanians,
+algerians,
+amazighs,
+ancientGreeks,
+angloSaxons,
+argentinians,
+armenians,
+assyrians,
+azerbaijanis,
+aztecs,
+babylonians,
+basothos,
+basques,
+belgians,
+bengalis,
+biblicals,
+bosnians,
+brazilians,
+bulgarians,
+burmeseMyanmars,
+cajuns,
+catalans,
+celticBretons,
+celticWelshs,
+celtics,
+chineses,
+circassians,
+colonialAmericans,
+croatians,
+czechs,
+danishs,
+dutchs,
+edoJapaneses,
+edwardians,
+egyptians,
+englishs,
+enochians,
+estonians,
+ethiopians,
+faroeses,
+filipinos,
+finnishs,
+frankishs,
+frenchs,
+frisians,
+georgians,
+germans,
+gothics,
+greeks,
+hausas,
+hawaiians,
+hebrews,
+hillbillys,
+hindus,
+hippies,
+hispanics,
+hungarians,
+icelandics,
+indonesians,
+inuits,
+irishs,
+italians,
+jamaicans,
+japaneses,
+jewishs,
+kazakhs,
+khmers,
+koreans,
+kurdishs,
+laotians,
+latins,
+latvians,
+lithuanians,
+malaysians,
+malteses,
+maoris,
+mayans,
+modernEgyptians,
+mongolians,
+moroccans,
+muslims,
+nativeAmericans,
+natures,
+nepaleses,
+normans,
+norwegians,
+oldHighGermans,
+pashtuns,
+persians,
+polishs,
+portugueses,
+poshs,
+punjabis,
+puritans,
+quebecois,
+romaGypsys,
+romanians,
+romans,
+russians,
+serbians,
+shakespeareans,
+shonas,
+sikhs,
+sinhaleses,
+slavics,
+slovenians,
+somalis,
+stages,
+suebis,
+sumerians,
+swahilis,
+swedishs,
+swiss,
+tajiks,
+tamils,
+telugus,
+thais,
+tibetans,
+turkishs,
+twentiethCenturyEnglishs,
+twins,
+ukrainians,
+victorians,
+vietnameses,
+vikings,
+yorubas,
+zulus
+        };

@@ -1,10 +1,23 @@
-export * as anoukis from './anoukis';
-export * as deitys from './deitys';
-export * as dekus from './dekus';
-export * as fairys from './fairys';
-export * as gerudos from './gerudos';
-export * as gorons from './gorons';
-export * as humans from './humans';
-export * as korokKokiris from './korokKokiris';
-export * as minishs from './minishs';
-export * as zoras from './zoras';
+import anoukis from './anoukis';
+import deitys from './deitys';
+import dekus from './dekus';
+import fairys from './fairys';
+import gerudos from './gerudos';
+import gorons from './gorons';
+import humans from './humans';
+import korokKokiris from './korokKokiris';
+import minishs from './minishs';
+import zoras from './zoras';
+
+export {
+            anoukis,
+deitys,
+dekus,
+fairys,
+gerudos,
+gorons,
+humans,
+korokKokiris,
+minishs,
+zoras
+        };

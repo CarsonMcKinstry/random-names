@@ -1,22 +1,47 @@
-export * as battleAxes from './battleAxes';
-export * as battle_axes from './battle_axes';
-export * as bombMissiles from './bombMissiles';
-export * as bows from './bows';
-export * as clawWeapons from './clawWeapons';
-export * as daggers from './daggers';
-export * as dualWields from './dualWields';
-export * as fistWeapons from './fistWeapons';
-export * as flails from './flails';
-export * as magicBooks from './magicBooks';
-export * as magicWeapons from './magicWeapons';
-export * as pistols from './pistols';
-export * as rifles from './rifles';
-export * as sciFiGuns from './sciFiGuns';
-export * as scythes from './scythes';
-export * as shotguns from './shotguns';
-export * as spears from './spears';
-export * as staffs from './staffs';
-export * as swords from './swords';
-export * as throwingWeapons from './throwingWeapons';
-export * as warHammers from './warHammers';
-export * as whips from './whips';
+import battleAxes from './battleAxes';
+import battle_axes from './battle_axes';
+import bombMissiles from './bombMissiles';
+import bows from './bows';
+import clawWeapons from './clawWeapons';
+import daggers from './daggers';
+import dualWields from './dualWields';
+import fistWeapons from './fistWeapons';
+import flails from './flails';
+import magicBooks from './magicBooks';
+import magicWeapons from './magicWeapons';
+import pistols from './pistols';
+import rifles from './rifles';
+import sciFiGuns from './sciFiGuns';
+import scythes from './scythes';
+import shotguns from './shotguns';
+import spears from './spears';
+import staffs from './staffs';
+import swords from './swords';
+import throwingWeapons from './throwingWeapons';
+import warHammers from './warHammers';
+import whips from './whips';
+
+export {
+            battleAxes,
+battle_axes,
+bombMissiles,
+bows,
+clawWeapons,
+daggers,
+dualWields,
+fistWeapons,
+flails,
+magicBooks,
+magicWeapons,
+pistols,
+rifles,
+sciFiGuns,
+scythes,
+shotguns,
+spears,
+staffs,
+swords,
+throwingWeapons,
+warHammers,
+whips
+        };

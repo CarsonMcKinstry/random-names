@@ -1,4 +1,11 @@
-export * as amarrs from './amarrs';
-export * as caldaris from './caldaris';
-export * as gallentes from './gallentes';
-export * as minmatars from './minmatars';
+import amarrs from './amarrs';
+import caldaris from './caldaris';
+import gallentes from './gallentes';
+import minmatars from './minmatars';
+
+export {
+            amarrs,
+caldaris,
+gallentes,
+minmatars
+        };

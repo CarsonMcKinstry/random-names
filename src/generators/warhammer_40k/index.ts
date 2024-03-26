@@ -1,8 +1,19 @@
-export * as chaos from './chaos';
-export * as darkEldars from './darkEldars';
-export * as eldars from './eldars';
-export * as necrons from './necrons';
-export * as orks from './orks';
-export * as sistersOfBattles from './sistersOfBattles';
-export * as spaceMarines from './spaceMarines';
-export * as taus from './taus';
+import chaos from './chaos';
+import darkEldars from './darkEldars';
+import eldars from './eldars';
+import necrons from './necrons';
+import orks from './orks';
+import sistersOfBattles from './sistersOfBattles';
+import spaceMarines from './spaceMarines';
+import taus from './taus';
+
+export {
+            chaos,
+darkEldars,
+eldars,
+necrons,
+orks,
+sistersOfBattles,
+spaceMarines,
+taus
+        };

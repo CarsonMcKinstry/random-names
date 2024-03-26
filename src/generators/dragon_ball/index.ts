@@ -1,7 +1,17 @@
-export * as friezaClans from './friezaClans';
-export * as hakaishins from './hakaishins';
-export * as humans from './humans';
-export * as others from './others';
-export * as saiyans from './saiyans';
-export * as skians from './skians';
-export * as tuffles from './tuffles';
+import friezaClans from './friezaClans';
+import hakaishins from './hakaishins';
+import humans from './humans';
+import others from './others';
+import saiyans from './saiyans';
+import skians from './skians';
+import tuffles from './tuffles';
+
+export {
+            friezaClans,
+hakaishins,
+humans,
+others,
+saiyans,
+skians,
+tuffles
+        };

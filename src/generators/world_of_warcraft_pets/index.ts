@@ -1,12 +1,27 @@
-export * as batDragonhawks from './batDragonhawks';
-export * as birds from './birds';
-export * as boarsBears from './boarsBears';
-export * as cats from './cats';
-export * as crabs from './crabs';
-export * as dinoRhinos from './dinoRhinos';
-export * as dogWolfs from './dogWolfs';
-export * as goatPorcupines from './goatPorcupines';
-export * as gorillaMonkeys from './gorillaMonkeys';
-export * as insects from './insects';
-export * as reptiles from './reptiles';
-export * as wowPets from './wowPets';
+import batDragonhawks from './batDragonhawks';
+import birds from './birds';
+import boarsBears from './boarsBears';
+import cats from './cats';
+import crabs from './crabs';
+import dinoRhinos from './dinoRhinos';
+import dogWolfs from './dogWolfs';
+import goatPorcupines from './goatPorcupines';
+import gorillaMonkeys from './gorillaMonkeys';
+import insects from './insects';
+import reptiles from './reptiles';
+import wowPets from './wowPets';
+
+export {
+            batDragonhawks,
+birds,
+boarsBears,
+cats,
+crabs,
+dinoRhinos,
+dogWolfs,
+goatPorcupines,
+gorillaMonkeys,
+insects,
+reptiles,
+wowPets
+        };
