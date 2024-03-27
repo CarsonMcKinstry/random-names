@@ -27,4 +27,6 @@ export const namespaces = Object.entries(_generators)
         acc[key] = keys;
 
         return acc;
-    }, {});
+    }, {} as {
+        [Key in keyof GeneratorNamespaces]: keyof GeneratorNamespaces[Key]
+    });
